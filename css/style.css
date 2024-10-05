@@ -1,0 +1,162 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    margin-top: 80px;
+    padding: 70px 0;
+    background-color: royalblue;
+    color: white;
+}
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.my_caption-gray{
+    color:grey;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-top: 20px;
+}
+
+.my_brand-header{
+    background-color: black;
+}
+.my_brand-header img{
+    height: 25px;
+    padding: 7px 10px;
+}
+.btn{
+    border-radius: 25px;
+}
+
+.my_buy-btn{
+    background-color: rgb(215, 61, 15);
+    border-color: rgb(215, 61, 15);
+}
+
+.my_explore-btn{
+    border: none;
+    color: royalblue;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.678);
+}
+
+.my_jumbotron{
+    color: white;
+    padding-bottom: 50px;
+    background-size: cover ;
+}
+.my_jumbo-logo{
+    width: 50%;
+}
+
+.my_carousel-img{
+    background-size: contain;
+    background-repeat: no-repeat;  
+    border-radius: 15px;  
+    border: 3px solid transparent;
+}
+
+.my_carousel-img:hover{
+    border: 3px solid royalblue;
+}
+
+.my_carousel-img>img{
+    width: 100%;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.my_item-console{
+    opacity: 0.7;
+    border: 3px solid transparent;
+    margin-bottom: 40px;   
+}
+
+.my_ps4-item{
+    width: 100%;
+}
+
+.my_item-console:hover{
+    opacity: 1;
+    border-bottom: 3px solid royalblue;
+}
+
+.split-jumbo{
+    margin: 70px 0;
+}
+
+.split-jumbo .my_jumbo-logo{
+    padding-top:30px ;
+    width: 60%;
+}   
+
+.split-jumbo img{
+    width: 100%;
+    background-size: cover;
+}
+
+.my_social-logo{
+    width: 100%;
+}
+
+.my_sale-item{
+    width: 100%;
+}
+#navbar .nav-link{
+    color: black;
+}
+
+#head-jumbo{
+    padding-top: 290px;
+    margin-bottom: 30px;
+    background-image:  url(../img/fc.png);
+    background-size: cover;
+    background-position: top;
+}
+
+
+#carousel{
+    margin-bottom: 80px;
+}
+
+#console-head span{
+    color: royalblue;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+#item-selected img{
+    width: 100%;
+    background-size: contain;
+}
+
+#center-jumbo.my_jumbotron{
+    padding-top: 30px;
+    background: center url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#incoming{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    margin-bottom: 60px ;
+}
+
+#incoming .my_incoming-item{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#ps-plus-jumbo{  
+    background-color: rgb(190, 188, 187);
+}
+
+#ps-now-jumbo{
+    color: white;
+    background-color: rgb( 22, 28, 59);
+} 
